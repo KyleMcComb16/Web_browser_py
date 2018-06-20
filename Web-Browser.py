@@ -28,6 +28,11 @@ def web_browser():
 
     elif(option == "2"):
         top_ten()
+        
+    else:
+        print()
+        print("ERROR! Enter a valid number (1 or 2)")
+        web_browser()
 
 def top_ten():
     print("Welcome to the top ten most viewed websites!")
